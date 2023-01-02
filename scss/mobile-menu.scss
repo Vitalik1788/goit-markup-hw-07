@@ -1,0 +1,122 @@
+@media screen and (max-width:767px) {
+    
+.mobile-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: scroll;
+}
+
+.mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.mobile-menu-container {
+    position: relative;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.mobile-menu-close-btn {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    
+    width: 24px;
+    height: 24px;
+    background: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    line-height: 0;
+}
+
+.mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:focus {
+    background: #404BBF;
+    fill: #ffffff;
+}
+
+.menu-nav-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.menu-nav-link {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.corrent-page {
+    color: #404BBF;
+}
+
+.menu-contacts-list {
+    margin-top: 284px;
+}
+
+.menu-contact-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+
+.menu-phone-link {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #4D5AE5;
+}
+
+.menu-mail-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.menu-social-list {
+    display: flex;
+    margin-top: 48px;
+    
+}
+
+.menu-social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms var(--transform-style);
+}
+
+.menu-social-link:hover,
+.menu-social-link:focus {
+    background-color: #404BBF;
+}
+
+.menu-social-list .menu-social-item+.menu-social-item {
+    margin-left: 56px;
+}
+}
