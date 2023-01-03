@@ -1,0 +1,132 @@
+// SECTION 4 
+.team-container {
+    background-color: var(--light-bgc);
+}
+
+@media screen and (min-width:767px) {
+
+.team-container {
+    padding-top: 96px;
+    padding-bottom: 128px;
+}
+
+.team-item {
+    display: flex;
+    justify-content: center;
+}
+
+.team-item:not(:last-child) {
+    margin-bottom: 72px;
+}
+}
+.team-heading {
+    margin-bottom: 72px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--dark-navi-color);
+}
+
+.card-content {
+    max-width: 264px;    
+    padding-bottom: 32px;
+    background: var(--simple-white);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-title {
+    margin-top: 32px;
+    margin-bottom: 8px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--dark-navi-color);
+}
+
+.team-text {
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+}
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-social-list {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.team-social-list .team-social-item+.team-social-item {
+    margin-left: 24px;
+}
+
+.team-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms var(--transform-style);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: #404BBF;
+}
+
+@media screen and (min-width: 768px)
+and (max-width: 1199px) {
+// .team {
+//     padding: 96px 108px 104px;
+// }
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-right: -24px;  
+}
+
+.team-item {
+    margin-right: 24px;
+    margin-bottom: 64px;
+    flex-basis: calc((100% - 2 * 24px) / 2);
+}
+
+.team-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.team-item:nth-child(n+2) {
+    margin-bottom: 0;
+}
+}
+
+@media screen and (min-width:1200px) {
+.team-container {padding: 120px 156px;}
+
+.team-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.team-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+}

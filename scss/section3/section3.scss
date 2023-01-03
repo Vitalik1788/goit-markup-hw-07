@@ -1,0 +1,24 @@
+@media screen and (min-width:1200px) {
+.services {
+    padding-bottom: 120px;
+}
+.services-heading {
+        margin-bottom: 72px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--dark-navi-color);
+    }
+
+    .services-list {
+        display: flex;
+    }
+
+    .services-list .services-item+.services-item {
+        margin-left: 24px;
+    }
+
+}
