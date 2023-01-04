@@ -81,4 +81,12 @@ body {
   .container {
     width: 1158px;
   }
+}
+@media screen and (max-width: 1199px) {
+  .benefits-icon {
+    display: none;
+  }
+  .services {
+    display: none;
+  }
 }/*# sourceMappingURL=container.css.map */

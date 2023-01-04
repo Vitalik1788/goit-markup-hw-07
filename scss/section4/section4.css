@@ -1,20 +1,24 @@
-.team-container {
+.team {
   background-color: var(--light-bgc);
 }
 
-@media screen and (min-width: 767px) {
-  .team-container {
-    padding-top: 96px;
-    padding-bottom: 128px;
-  }
-  .team-item {
-    display: flex;
-    justify-content: center;
-  }
-  .team-item:not(:last-child) {
-    margin-bottom: 72px;
-  }
+.team-container {
+  padding-top: 96px;
+  padding-bottom: 128px;
+  padding-left: 82px;
+  padding-right: 82px;
 }
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-item {
+  max-width: 264px;
+}
+
 .team-heading {
   margin-bottom: 72px;
   font-weight: 700;
@@ -26,7 +30,6 @@
 }
 
 .card-content {
-  max-width: 264px;
   padding-bottom: 32px;
   background: var(--simple-white);
   border-radius: 0px 0px 4px 4px;
@@ -69,7 +72,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #4D5AE5;
@@ -81,16 +84,19 @@
   background-color: #404BBF;
 }
 
+@media screen and (max-width: 767px) {
+  .team-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team-list {
-    display: flex;
-    flex-wrap: wrap;
     margin-right: -24px;
   }
   .team-item {
     margin-right: 24px;
     margin-bottom: 64px;
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc(50% - 48px);
   }
   .team-item:nth-child(2n) {
     margin-right: 0;
@@ -100,15 +106,12 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .team-container {
-    padding: 120px 156px;
-  }
   .team-list {
-    display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    margin-right: -24px;
   }
-  .team-item:not(:last-child) {
+  .team-item {
+    flex-basis: calc(25% - 96px);
     margin-right: 24px;
   }
 }/*# sourceMappingURL=section4.css.map */

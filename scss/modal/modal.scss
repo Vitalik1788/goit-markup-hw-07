@@ -33,10 +33,6 @@
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-
-    @media screen and (min-width:480px) {
-    width: 392px;    
-    }
 }
 
 .modal-heading {
@@ -85,7 +81,8 @@
 }
 
 .input {
-    height: 40px;
+    
+    min-height: 40px;
     width: 360px;
     padding-left: 38px;
     border-radius: 4px;

@@ -3,7 +3,7 @@
 }
 
 .footer-content {
-  padding: 96px 0;
+  padding: 96px 16px;
 }
 
 .logo-footer {
@@ -86,6 +86,7 @@
   padding-top: 8px;
   padding-bottom: 8px;
   margin-bottom: 16px;
+  max-width: 396px;
   min-height: 40px;
   background: #2E2F42;
   color: rgba(255, 255, 255, 0.6);
@@ -138,24 +139,48 @@
   background-image: url(../../images/buttons/send.svg);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
   .footer-content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .footer-logo-part {
-    max-width: 264px;
-    margin-right: 24px;
+  .logo-footer {
+    text-align: left;
+  }
+  .text-footer {
+    width: 264px;
+    min-height: 72px;
+    padding: 0;
+  }
+  .footer-heading {
+    text-align: left;
   }
   .social-content {
     margin-left: 24px;
+  }
+  .subscription-heading {
+    text-align: left;
   }
   .footer-field {
     display: flex;
     flex-direction: row;
   }
-  .footer-button {
-    margin-left: 24px;
+  .footer-input {
+    display: block;
+    margin-bottom: 0;
+    margin-right: 24px;
+    width: 264px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-content {
+    padding: 100px 16px;
+  }
+  .social-content {
+    margin-left: 120px;
+  }
+  .footer-field, .subscription-heading {
+    margin-left: 80px;
   }
 }/*# sourceMappingURL=footer.css.map */

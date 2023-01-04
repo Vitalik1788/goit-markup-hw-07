@@ -90,6 +90,14 @@ body {
 }    
 }
 
+@media screen and (max-width:1199px) {
+    .benefits-icon {
+        display: none;
+    }
 
+    .services {
+        display: none;
+    }
+}
 
 
