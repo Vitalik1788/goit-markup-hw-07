@@ -28,9 +28,9 @@
    
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
-screen and (min-resolution: 192dpi) and (max-width:767px),
-screen and (min-resolution: 2dppx) and (max-width:767px) {
+@media screen and (min-device-pixel-ratio: 2) and (max-width:576px),
+screen and (min-resolution: 192dpi) and (max-width:576px),
+screen and (min-resolution: 2dppx) and (max-width:576px) {
     .bg-image {
         background-image:
             linear-gradient(to right, rgba(46, 47, 66, 0.7),
@@ -39,7 +39,7 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:577px) and (max-width:960px) {
 .bg-image {
     min-height: 436px;
     background-image:
@@ -49,9 +49,9 @@ screen and (min-resolution: 2dppx) and (max-width:767px) {
 }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
-screen and (min-resolution: 192dpi) and (min-width:768px),
-screen and (min-resolution: 2dppx) and (min-width:768px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width:577px) and (max-width:960px),
+screen and (min-resolution: 192dpi) and (min-width:577px) and (max-width:960px),
+screen and (min-resolution: 2dppx) and (min-width:577px) and (max-width:960px) {
     .bg-image {
         background-image:
             linear-gradient(to right, rgba(46, 47, 66, 0.7),
@@ -60,7 +60,7 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:961px) {
 .bg-image {
         min-height: 600px;
         background-image:
@@ -70,9 +70,9 @@ screen and (min-resolution: 2dppx) and (min-width:768px) {
     }    
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
-screen and (min-resolution: 192dpi) and (min-width:1200px),
-screen and (min-resolution: 2dppx) and (min-width:1200px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width:961px),
+screen and (min-resolution: 192dpi) and (min-width:961px),
+screen and (min-resolution: 2dppx) and (min-width:961px) {
     .bg-image {
         background-image:
             linear-gradient(to right, rgba(46, 47, 66, 0.7),

@@ -27,25 +27,25 @@
                     <li class="nav-item"><a class="nav-link current-page link" href="./index.html">Studio</a></li>
                     <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link link contacts" href="">Contacts</a></li>
-                </ul>                                
+                </ul>
             </nav>
             <button type="button" class="mobile-menu-open" data-menu-open>
                 <svg class="mobile-menu-open-icon" width="32" height="22">
                     <use href="./images/icons.svg#icon-menu"></use>
                 </svg>
             </button>
-                <ul class="contacts-list">
-                    <li class="contact-item list">
-                        <a class="phone-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                    </li>
-                    <li class="contact-item list">
-                        <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                </ul>
+            <ul class="contacts-list">
+                <li class="contact-item list">
+                    <a class="phone-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li class="contact-item list">
+                    <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
         </div>
-<!--MOBILE MENU-->        
+<!--MOBILE MENU-->
         <div class="mobile-menu" data-menu>
-            <div class="container mobile-menu-container">
+            <div class="mobile-menu-container container">
                 <button type="button" class="mobile-menu-close-btn" data-menu-close>
                     <svg class="mobile-menu-close-icon" width="8" height="8">
                         <use href="./images/icons.svg#icon-btn-close-modal"></use>
@@ -57,45 +57,47 @@
                     <li class="menu-nav-item"><a class="menu-nav-link link corrent-page" href="">Contacts</a></li>
                 </ul>
 
-                <ul class="menu-contacts-list">
-                    <li class="menu-contact-item list">
-                        <a class="menu-phone-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                    </li>
-                    <li class="menu-contact-item list">
-                        <a class="menu-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                </ul>
-
-                <ul class="menu-social-list list">
-                    <li class="menu-social-item">
-                        <a class="menu-social-link" href="https://www.instagram.com/" target="_blank">
-                            <svg class="menu-social-icon" width="16" height="16">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="menu-social-item">
-                        <a class="menu-social-link" href="https://twitter.com/?lang=uk" target="_blank">
-                            <svg class="menu-social-icon" width="16" height="16">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="menu-social-item">
-                        <a class="menu-social-link" href="https://www.facebook.com/" target="_blank">
-                            <svg class="menu-social-icon" width="16" height="16">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="menu-social-item">
-                        <a class="menu-social-link" href="https://www.linkedin.com/" target="_blank">
-                            <svg class="menu-social-icon" width="16" height="16">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+                <div class="menu-group">
+                    <ul class="menu-contacts-list list">
+                        <li class="menu-contact-item">
+                            <a class="menu-phone-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                        <li class="menu-contact-item">
+                            <a class="menu-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                    
+                    <ul class="menu-social-list list">
+                        <li class="menu-social-item">
+                            <a class="menu-social-link" href="https://www.instagram.com/" target="_blank">
+                                <svg class="menu-social-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-social-item">
+                            <a class="menu-social-link" href="https://twitter.com/?lang=uk" target="_blank">
+                                <svg class="menu-social-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-social-item">
+                            <a class="menu-social-link" href="https://www.facebook.com/" target="_blank">
+                                <svg class="menu-social-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-social-item">
+                            <a class="menu-social-link" href="https://www.linkedin.com/" target="_blank">
+                                <svg class="menu-social-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -165,13 +167,13 @@
                 <h2 class="services-heading">What Are We Doing</h2>
                 <ul class="services-list list">
                     <li class="services-item">
-                        <img class="services" src="./images/about/monitor.jpg" alt="desctop" width="360">
+                        <img class="services-img" src="./images/about/monitor.jpg" alt="desctop" width="360">
                     </li>
                     <li class="services-item">
-                        <img class="services" src="./images/about/phone.jpg" alt="phone" width="360">
+                        <img class="services-img" src="./images/about/phone.jpg" alt="phone" width="360">
                     </li>
                     <li class="services-item">
-                        <img class="services" src="./images/about/phoneinhand.jpg" alt="phone in hand" width="360">
+                        <img class="services-img" src="./images/about/phoneinhand.jpg" alt="phone in hand" width="360">
                     </li>
                 </ul>
             </div>

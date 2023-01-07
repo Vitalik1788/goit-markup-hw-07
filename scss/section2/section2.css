@@ -21,7 +21,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -30,18 +29,17 @@
   .benefits-list {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -24px;
+    margin: 0 -12px;
   }
   .benefits-item {
     flex-basis: calc((100% - 48px) / 2);
-    margin-right: 24px;
+    margin: 0 12px;
     min-height: 72px;
   }
-  .benefits-item:nth-child(2n) {
-    margin-right: 0;
+  .benefits-item:nth-last-child(-n+2) {
+    margin-bottom: 0;
   }
-  .benefits-heading,
-.benefits-link {
+  .benefits-heading {
     text-align: left;
   }
 }
