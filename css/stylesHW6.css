@@ -862,7 +862,7 @@ background-origin: border-box;
     color: var(--slate-text-color);}
 
 
-.product-thumb {
+/* .product-thumb {
     position: relative;
     overflow: hidden;    
 }
@@ -909,4 +909,4 @@ background-origin: border-box;
 .work-links:focus .product-action
 {transform: translateY(0);
         opacity: 1;
-        visibility: visible;}
+        visibility: visible;} */
